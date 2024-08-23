@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-06-06 10:05:57 by Eclipse SUMO netedit Version 1.18.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="DEFAULT_VEHTYPE"/>
+    <vType id="jeepney" length="7.00" guiShape="passenger/van" color="cyan"/>
+    <vType id="motorcycle" vClass="motorcycle" color="magenta"/>
+    <vType id="passenger" color="yellow"/>
+    <vType id="tricycle" vClass="motorcycle" emissionClass="HBEFA3/LDV_G_EU6" guiShape="motorcycle" width="0.90" color="128,0,128" personCapacity="5"/>
+    <vType id="truck" guiShape="truck" color="0,128,128"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+	
+	<!-- Intersection 9 straight, left and right	-->
+	<flow id="f_0" type="motorcycle" begin="0.00" from="-252223483#12" to="-252223483#1" end="3600.00" vehsPerHour="216.00"/>
+    <flow id="f_1" type="motorcycle" begin="0.00" from="-252223483#12" to="-23521696#2" end="3600.00" vehsPerHour="156.00"/>
+    <flow id="f_2" type="motorcycle" begin="0.00" from="-252223483#12" to="-23520880#1" end="3600.00" vehsPerHour="132.00"/>
+	<flow id="f_3" type="tricycle" begin="0.00" from="-252223483#12" to="-252223483#1" end="3600.00" vehsPerHour="132.00"/>
+    <flow id="f_4" type="tricycle" begin="0.00" from="-252223483#12" to="-23521696#2" end="3600.00" vehsPerHour="132.00"/>
+    <flow id="f_5" type="tricycle" begin="0.00" from="-252223483#12" to="-23520880#1" end="3600.00" vehsPerHour="72.00"/>
+	<flow id="f_6" type="jeepney" begin="0.00" from="-252223483#12" to="-252223483#1" end="3600.00" vehsPerHour="192.00"/>
+    <flow id="f_7" type="jeepney" begin="0.00" from="-252223483#12" to="-23520880#1" end="3600.00" vehsPerHour="12.00"/>
+    <flow id="f_8" type="jeepney" begin="0.00" from="-252223483#12" to="-23521696#2" end="3600.00" vehsPerHour="48.00"/>
+	<flow id="f_9" type="passenger" begin="0.00" from="-252223483#12" to="-252223483#1" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_10" type="passenger" begin="0.00" from="-252223483#12" to="-23520880#1" end="3600.00" vehsPerHour="12.00"/>
+    <flow id="f_11" type="passenger" begin="0.00" from="-252223483#12" to="-23521696#2" end="3600.00" vehsPerHour="12.00"/>
+
+	<flow id="f_12" type="motorcycle" begin="0.00" from="252223483#9" to="252223483#12" end="3600.00" vehsPerHour="96.00"/>
+    <flow id="f_13" type="motorcycle" begin="0.00" from="252223483#9" to="-23520880#1" end="3600.00" vehsPerHour="72.00"/>
+    <flow id="f_14" type="motorcycle" begin="0.00" from="252223483#9" to="-23521696#2" end="3600.00" vehsPerHour="108.00"/>
+	<flow id="f_15" type="tricycle" begin="0.00" from="252223483#9" to="252223483#12" end="3600.00" vehsPerHour="72.00"/>
+    <flow id="f_16" type="tricycle" begin="0.00" from="252223483#9" to="-23520880#1" end="3600.00" vehsPerHour="60.00"/>
+    <flow id="f_17" type="tricycle" begin="0.00" from="252223483#9" to="-23521696#2" end="3600.00" vehsPerHour="60.00"/>
+	<flow id="f_18" type="jeepney" begin="0.00" from="252223483#9" to="252223483#12" end="3600.00" vehsPerHour="24.00"/>
+    <flow id="f_19" type="jeepney" begin="0.00" from="252223483#9" to="-23520880#1" end="3600.00" vehsPerHour="24.00"/>
+    <flow id="f_20" type="jeepney" begin="0.00" from="252223483#9" to="-23521696#2" end="3600.00" vehsPerHour="60.00"/>
+	<flow id="f_21" type="passenger" begin="0.00" from="252223483#9" to="252223483#12" end="3600.00" vehsPerHour="132.00"/>
+    <flow id="f_22" type="passenger" begin="0.00" from="252223483#9" to="-23520880#1" end="3600.00" vehsPerHour="84.00"/>
+    <flow id="f_23" type="passenger" begin="0.00" from="252223483#9" to="-23521696#2" end="3600.00" vehsPerHour="108.00"/>
+	<flow id="f_24" type="truck" begin="0.00" from="252223483#9" to="252223483#12" end="3600.00" vehsPerHour="48.00"/>
+    <flow id="f_25" type="truck" begin="0.00" from="252223483#9" to="-23520880#1" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_26" type="truck" begin="0.00" from="252223483#9" to="-23521696#2" end="3600.00" vehsPerHour="36.00"/>
+
+	<flow id="f_27" type="motorcycle" begin="0.00" from="23519706#8" to="-23521696#2" end="3600.00" vehsPerHour="192.00"/>
+    <flow id="f_28" type="motorcycle" begin="0.00" from="23519706#8" to="252223483#12" end="3600.00" vehsPerHour="12.00"/>
+    <flow id="f_29" type="motorcycle" begin="0.00" from="23519706#8" to="-252223483#1" end="3600.00" vehsPerHour="48.00"/>
+	<flow id="f_30" type="tricycle" begin="0.00" from="23519706#8" to="-23521696#2" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_31" type="tricycle" begin="0.00" from="23519706#8" to="252223483#12" end="3600.00" vehsPerHour="12.00"/>
+    <flow id="f_32" type="tricycle" begin="0.00" from="23519706#8" to="-252223483#1" end="3600.00" vehsPerHour="12.00"/>
+	<flow id="f_33" type="passenger" begin="0.00" from="23519706#8" to="-23521696#2" end="3600.00" vehsPerHour="132.00"/>
+    <flow id="f_34" type="passenger" begin="0.00" from="23519706#8" to="252223483#12" end="3600.00" vehsPerHour="84.00"/>
+    <flow id="f_35" type="passenger" begin="0.00" from="23519706#8" to="-252223483#1" end="3600.00" vehsPerHour="60.00"/>
+	<flow id="f_36" type="truck" begin="0.00" from="23519706#8" to="-23521696#2" end="3600.00" vehsPerHour="12.00"/>
+    <flow id="f_37" type="truck" begin="0.00" from="23519706#8" to="-252223483#1" end="3600.00" vehsPerHour="12.00"/>	
+	
+	<flow id="f_38" type="motorcycle" begin="0.00" from="23521696#2" to="-23520880#1" end="3600.00" vehsPerHour="144.00"/>
+    <flow id="f_39" type="motorcycle" begin="0.00" from="23521696#2" to="-252223483#1" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_40" type="motorcycle" begin="0.00" from="23521696#2" to="252223483#12" end="3600.00" vehsPerHour="48.00"/>
+	<flow id="f_41" type="tricycle" begin="0.00" from="23521696#2" to="-23520880#1" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_42" type="tricycle" begin="0.00" from="23521696#2" to="-252223483#1" end="3600.00" vehsPerHour="12.00"/>
+    <flow id="f_43" type="tricycle" begin="0.00" from="23521696#2" to="252223483#12" end="3600.00" vehsPerHour="12.00"/>
+	<flow id="f_44" type="passenger" begin="0.00" from="23521696#2" to="-23520880#1" end="3600.00" vehsPerHour="132.00"/>
+    <flow id="f_45" type="passenger" begin="0.00" from="23521696#2" to="-252223483#1" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_46" type="passenger" begin="0.00" from="23521696#2" to="252223483#12" end="3600.00" vehsPerHour="24.00"/>
+	<flow id="f_47" type="truck" begin="0.00" from="23521696#2" to="-23520880#1" end="3600.00" vehsPerHour="24.00"/>
+	
+	<!-- Intersection 8 straight, left and right	-->
+	<flow id="f_48" type="motorcycle" begin="0.00" from="23521917#5" to="23521401#0" end="3600.00" vehsPerHour="216.00"/>
+    <flow id="f_49" type="motorcycle" begin="0.00" from="23521917#5" to="-282035194" end="3600.00" vehsPerHour="60.00"/>
+    <flow id="f_50" type="motorcycle" begin="0.00" from="23521917#5" to="-23540252" end="3600.00" vehsPerHour="84.00"/>
+	<flow id="f_51" type="tricycle" begin="0.00" from="23521917#5" to="23521401#0" end="3600.00" vehsPerHour="180.00"/>
+    <flow id="f_52" type="tricycle" begin="0.00" from="23521917#5" to="-282035194" end="3600.00" vehsPerHour="60.00"/>
+    <flow id="f_53" type="tricycle" begin="0.00" from="23521917#5" to="-23540252" end="3600.00" vehsPerHour="84.00"/>
+	<flow id="f_54" type="jeepney" begin="0.00" from="23521917#5" to="23521401#0" end="3600.00" vehsPerHour="48.00"/>
+    <flow id="f_55" type="passenger" begin="0.00" from="23521917#5" to="23521401#0" end="3600.00" vehsPerHour="192.00"/>
+    <flow id="f_56" type="passenger" begin="0.00" from="23521917#5" to="-282035194" end="3600.00" vehsPerHour="108.00"/>
+    <flow id="f_57" type="passenger" begin="0.00" from="23521917#5" to="-23540252" end="3600.00" vehsPerHour="108.00"/>
+	
+	<flow id="f_58" type="motorcycle" begin="0.00" from="-23521401#0" to="-23521917#5" end="3600.00" vehsPerHour="144.00"/>
+    <flow id="f_59" type="motorcycle" begin="0.00" from="-23521401#0" to="-23540252" end="3600.00" vehsPerHour="60.00"/>
+    <flow id="f_60" type="motorcycle" begin="0.00" from="-23521401#0" to="-282035194" end="3600.00" vehsPerHour="60.00"/>
+	<flow id="f_61" type="tricycle" begin="0.00" from="23521401#0" to="-23521917#5" end="3600.00" vehsPerHour="120.00"/>
+    <flow id="f_62" type="tricycle" begin="0.00" from="-23521401#0" to="-23540252" end="3600.00" vehsPerHour="48.00"/>
+    <flow id="f_63" type="tricycle" begin="0.00" from="-23521401#0" to="-282035194" end="3600.00" vehsPerHour="24.00"/>
+	<flow id="f_64" type="jeepney" begin="0.00" from="23521401#0" to="-23521917#5" end="3600.00" vehsPerHour="48.00"/>
+    <flow id="f_65" type="passenger" begin="0.00" from="23521401#0" to="-23521917#5" end="3600.00" vehsPerHour="60.00"/>
+    <flow id="f_66" type="passenger" begin="0.00" from="-23521401#0" to="-23540252" end="3600.00" vehsPerHour="84.00"/>
+    <flow id="f_67" type="passenger" begin="0.00" from="-23521401#0" to="-282035194" end="3600.00" vehsPerHour="48.00"/>
+	
+	<flow id="f_68" type="motorcycle" begin="0.00" from="23519339" to="-282035194" end="3600.00" vehsPerHour="96.00"/>
+    <flow id="f_69" type="motorcycle" begin="0.00" from="23519339" to="-23521917#5" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_70" type="motorcycle" begin="0.00" from="23519339" to="23521401#0" end="3600.00" vehsPerHour="144.00"/>
+	<flow id="f_71" type="tricycle" begin="0.00" from="23519339" to="-282035194" end="3600.00" vehsPerHour="144.00"/>
+    <flow id="f_72" type="tricycle" begin="0.00" from="23519339" to="-23521917#5" end="3600.00" vehsPerHour="60.00"/>
+    <flow id="f_73" type="tricycle" begin="0.00" from="23519339" to="23521401#0" end="3600.00" vehsPerHour="84.00"/>
+	<flow id="f_74" type="jeepney" begin="0.00" from="23519339" to="-282035194" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_75" type="passenger" begin="0.00" from="23519339" to="-23521917#5" end="3600.00" vehsPerHour="84.00"/>
+    <flow id="f_76" type="passenger" begin="0.00" from="23519339" to="23521401#0" end="3600.00" vehsPerHour="36.00"/>
+	<flow id="f_201" type="passenger" begin="0.00" from="23519339" to="23521401#0" end="3600.00" vehsPerHour="24.00"/>
+	
+	<!-- Intersection 7 straight, left and right	-->
+	<flow id="f_77" type="motorcycle" begin="0.00" from="836685800#0" to="272595409#6" end="3600.00" vehsPerHour="396.00"/>
+    <flow id="f_78" type="motorcycle" begin="0.00" from="836685800#0" to="23522098#0" end="3600.00" vehsPerHour="72.00"/>
+    <flow id="f_79" type="tricycle" begin="0.00" from="836685800#0" to="272595409#6" end="3600.00" vehsPerHour="336.00"/>
+    <flow id="f_80" type="tricycle" begin="0.00" from="836685800#0" to="23522098#0" end="3600.00" vehsPerHour="108.00"/>
+    <flow id="f_81" type="jeepney" begin="0.00" from="836685800#0" to="272595409#6" end="3600.00" vehsPerHour="60.00"/>
+    <flow id="f_82" type="passenger" begin="0.00" from="836685800#0" to="272595409#6" end="3600.00" vehsPerHour="288.00"/>
+    <flow id="f_83" type="passenger" begin="0.00" from="836685800#0" to="23522098#0" end="3600.00" vehsPerHour="120.00"/>
+    <flow id="f_84" type="truck" begin="0.00" from="836685800#0" to="272595409#6" end="3600.00" vehsPerHour="12.00"/>
+    
+	<flow id="f_85" type="motorcycle" begin="0.00" from="-836685800#1" to="-836685805#2" end="3600.00" vehsPerHour="360.00"/>
+    <flow id="f_86" type="motorcycle" begin="0.00" from="-836685800#1" to="23522098#0" end="3600.00" vehsPerHour="108.00"/>
+	<flow id="f_87" type="tricycle" begin="0.00" from="-836685800#1" to="-836685805#2" end="3600.00" vehsPerHour="432.00"/>
+    <flow id="f_88" type="tricycle" begin="0.00" from="-836685800#1" to="23522098#0" end="3600.00" vehsPerHour="72.00"/>
+	<flow id="f_89" type="jeepney" begin="0.00" from="-836685800#1" to="-836685805#2" end="3600.00" vehsPerHour="60.00"/>
+    <flow id="f_90" type="passenger" begin="0.00" from="-836685800#1" to="-836685805#2" end="3600.00" vehsPerHour="276.00"/>
+	<flow id="f_92" type="passenger" begin="0.00" from="-836685800#1" to="-836685805#2" end="3600.00" vehsPerHour="72.00"/>
+    
+	<flow id="f_93" type="motorcycle" begin="0.00" from="-23522098#0" to="-836685805#2" end="3600.00" vehsPerHour="108.00"/>
+    <flow id="f_94" type="motorcycle" begin="0.00" from="-23522098#0" to="272595409#6" end="3600.00" vehsPerHour="84.00"/>
+	<flow id="f_95" type="tricycle" begin="0.00" from="-23522098#0" to="-836685805#2" end="3600.00" vehsPerHour="48.00"/>
+    <flow id="f_96" type="tricycle" begin="0.00" from="-23522098#0" to="272595409#6" end="3600.00" vehsPerHour="96.00"/>
+	<flow id="f_97" type="passenger" begin="0.00" from="-23522098#0" to="-836685805#2" end="3600.00" vehsPerHour="108.00"/>
+	<flow id="f_98" type="passenger" begin="0.00" from="-23522098#0" to="272595409#6" end="3600.00" vehsPerHour="96.00"/>
+	
+	<!-- Intersection 6 straight, left and right	-->
+	<flow id="f_100" type="motorcycle" begin="0.00" from="23519483#4" to="836685805#4" end="3600.00" vehsPerHour="528.00"/>
+    <flow id="f_101" type="motorcycle" begin="0.00" from="23519483#4" to="23520484#0" end="3600.00" vehsPerHour="36.00"/>
+	<flow id="f_102" type="tricycle" begin="0.00" from="23519483#4" to="836685805#4" end="3600.00" vehsPerHour="648.00"/>
+    <flow id="f_103" type="tricycle" begin="0.00" from="23519483#4" to="23520484#0" end="3600.00" vehsPerHour="36.00"/>
+	<flow id="f_104" type="jeepney" begin="0.00" from="23519483#4" to="836685805#4" end="3600.00" vehsPerHour="48.00"/>
+    <flow id="f_105" type="passenger" begin="0.00" from="23519483#4" to="836685805#4" end="3600.00" vehsPerHour="372.00"/>
+	
+	<flow id="f_106" type="motorcycle" begin="0.00" from="-836685805#1" to="-23519483#4" end="3600.00" vehsPerHour="564.00"/>
+    <flow id="f_107" type="motorcycle" begin="0.00" from="-836685805#1" to="23520484#0" end="3600.00" vehsPerHour="24.00"/>
+	<flow id="f_108" type="tricycle" begin="0.00" from="-836685805#1" to="-23519483#4" end="3600.00" vehsPerHour="624.00"/>
+    <flow id="f_99" type="tricycle" begin="0.00" from="-836685805#1" to="-23519483#4" end="3600.00" vehsPerHour="72.00"/>
+	<flow id="f_109" type="jeepney" begin="0.00" from="-836685805#1" to="-23519483#4" end="3600.00" vehsPerHour="72.00"/>
+    <flow id="f_110" type="passenger" begin="0.00" from="-836685805#1" to="-23519483#4" end="3600.00" vehsPerHour="312.00"/>
+	
+	<flow id="f_111" type="motorcycle" begin="0.00" from="-23520484#0" to="-23519483#4" end="3600.00" vehsPerHour="456.00"/>
+    <flow id="f_112" type="motorcycle" begin="0.00" from="-23520484#0" to="836685805#1" end="3600.00" vehsPerHour="36.00"/>
+	<flow id="f_113" type="tricycle" begin="0.00" from="-23520484#0" to="-23519483#4" end="3600.00" vehsPerHour="600.00"/>
+    <flow id="f_114" type="tricycle" begin="0.00" from="-23520484#0" to="836685805#1" end="3600.00" vehsPerHour="48.00"/>
+    <flow id="f_115" type="jeepney" begin="0.00" from="-23520484#0" to="-23519483#4" end="3600.00" vehsPerHour="24.00"/>
+    <flow id="f_202" type="jeepney" begin="0.00" from="-23520484#0" to="836685805#1" end="3600.00" vehsPerHour="24.00"/>
+    <flow id="f_116" type="passenger" begin="0.00" from="-23520484#0" to="-23519483#4" end="3600.00" vehsPerHour="444.00"/>
+	
+	<!-- Intersection 5 straight, left and right	-->
+	<flow id="f_117" type="motorcycle" begin="0.00" from="23519483#1" to="23519483#3" end="3600.00" vehsPerHour="420.00"/>
+    <flow id="f_118" type="tricycle" begin="0.00" from="23519483#1" to="23519483#3" end="3600.00" vehsPerHour="552.00"/>
+    <flow id="f_119" type="jeepney" begin="0.00" from="23519483#1" to="23519483#3" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_120" type="passenger" begin="0.00" from="23519483#1" to="23519483#3" end="3600.00" vehsPerHour="252.00"/>
+    <flow id="f_121" type="truck" begin="0.00" from="23519483#1" to="23519483#3" end="3600.00" vehsPerHour="36.00"/>
+    
+	<flow id="f_122" type="motorcycle" begin="0.00" from="-23519080" to="-23519582#1" end="3600.00" vehsPerHour="72.00"/>
+    <flow id="f_123" type="motorcycle" begin="0.00" from="-23519080" to="23519483#3" end="3600.00" vehsPerHour="24.00"/>
+    <flow id="f_124" type="motorcycle" begin="0.00" from="-23519080" to="23519483#1" end="3600.00" vehsPerHour="24.00"/>
+    <flow id="f_125" type="tricycle" begin="0.00" from="-23519080" to="23519483#3" end="3600.00" vehsPerHour="24.00"/>
+    <flow id="f_126" type="tricycle" begin="0.00" from="-23519080" to="23519483#1" end="3600.00" vehsPerHour="12.00"/>
+  
+	<flow id="f_127" type="motorcycle" begin="0.00" from="-23519483#3" to="-23519483#1" end="3600.00" vehsPerHour="396.00"/>
+    <flow id="f_128" type="motorcycle" begin="0.00" from="-23519483#3" to="23519080" end="3600.00" vehsPerHour="60.00"/>
+    <flow id="f_129" type="motorcycle" begin="0.00" from="-23519483#3" to="-23519582#1" end="3600.00" vehsPerHour="24.00"/>
+    <flow id="f_130" type="tricycle" begin="0.00" from="-23519483#3" to="-23519483#1" end="3600.00" vehsPerHour="504.00"/>
+    <flow id="f_131" type="jeepney" begin="0.00" from="-23519483#3" to="-23519483#1" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_132" type="passenger" begin="0.00" from="-23519483#3" to="-23519483#1" end="3600.00" vehsPerHour="324.00"/>
+    <flow id="f_133" type="truck" begin="0.00" from="-23519483#3" to="-23519483#1" end="3600.00" vehsPerHour="24.00"/>
+   
+    <!-- Intersection 4 straight, left and right	-->
+	<flow id="f_134" type="motorcycle" begin="0.00" from="23519483#0" to="23519483#1" end="3600.00" vehsPerHour="444.00"/>
+    <flow id="f_135" type="motorcycle" begin="0.00" from="23519483#0" to="23520880#0" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_136" type="tricycle" begin="0.00" from="23519483#0" to="23519483#1" end="3600.00" vehsPerHour="624.00"/>
+    <flow id="f_137" type="jeepney" begin="0.00" from="23519483#0" to="23519483#1" end="3600.00" vehsPerHour="72.00"/>
+    <flow id="f_138" type="passenger" begin="0.00" from="23519483#0" to="23519483#1" end="3600.00" vehsPerHour="168.00"/>
+    
+	<flow id="f_139" type="motorcycle" begin="0.00" from="-23519483#1" to="838916319#0" end="3600.00" vehsPerHour="444.00"/>
+    <flow id="f_140" type="motorcycle" begin="0.00" from="-23519483#1" to="23520880#0" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_141" type="tricycle" begin="0.00" from="-23519483#1" to="838916319#0" end="3600.00" vehsPerHour="480.00"/>
+	<flow id="f_203" type="tricycle" begin="0.00" from="-23519483#1" to="23520880#0" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_142" type="jeepney" begin="0.00" from="-23519483#1" to="838916319#0" end="3600.00" vehsPerHour="60.00"/>
+    <flow id="f_143" type="passenger" begin="0.00" from="-23519483#1" to="838916319#0" end="3600.00" vehsPerHour="312.00"/>
+    <flow id="f_144" type="passenger" begin="0.00" from="-23519483#1" to="23520880#0" end="3600.00" vehsPerHour="36.00"/>
+    
+	<flow id="f_145" type="motorcycle" begin="0.00" from="-23520880#0" to="23519483#1" end="3600.00" vehsPerHour="396.00"/>
+    <flow id="f_146" type="motorcycle" begin="0.00" from="-23520880#0" to="-23519483#0" end="3600.00" vehsPerHour="60.00"/>
+    <flow id="f_147" type="tricycle" begin="0.00" from="-23520880#0" to="23519483#1" end="3600.00" vehsPerHour="600.00"/>
+    <flow id="f_204" type="tricycle" begin="0.00" from="-23520880#0" to="-23519483#0" end="3600.00" vehsPerHour="72.00"/>
+    <flow id="f_206" type="jeepney" begin="0.00" from="-23520880#0" to="23519483#1" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_148" type="passenger" begin="0.00" from="-23520880#0" to="23519483#1" end="3600.00" vehsPerHour="288.00"/>
+    <flow id="f_205" type="passenger" begin="0.00" from="-23520880#0" to="-23519483#0" end="3600.00" vehsPerHour="96.00"/>
+    
+	<!-- Intersection 3 straight, left and right	-->
+	<flow id="f_149" type="motorcycle" begin="0.00" from="596568243" to="23519483#0" end="3600.00" vehsPerHour="468.00"/>
+    <flow id="f_150" type="motorcycle" begin="0.00" from="596568243" to="596568237#1" end="3600.00" vehsPerHour="72.00"/>
+    <flow id="f_151" type="motorcycle" begin="0.00" from="596568243" to="-596568238#0" end="3600.00" vehsPerHour="96.00"/>
+    <flow id="f_152" type="tricycle" begin="0.00" from="596568243" to="23519483#0" end="3600.00" vehsPerHour="780.00"/>
+    <flow id="f_153" type="tricycle" begin="0.00" from="596568243" to="596568237#1" end="3600.00" vehsPerHour="60.00"/>
+    <flow id="f_154" type="tricycle" begin="0.00" from="596568243" to="-596568238#0" end="3600.00" vehsPerHour="144.00"/>
+    <flow id="f_155" type="jeepney" begin="0.00" from="596568243" to="23519483#0" end="3600.00" vehsPerHour="156.00"/>
+    <flow id="f_156" type="jeepney" begin="0.00" from="596568243" to="596568237#1" end="3600.00" vehsPerHour="24.00"/>
+    <flow id="f_157" type="passenger" begin="0.00" from="596568243" to="23519483#0" end="3600.00" vehsPerHour="360.00"/>
+    <flow id="f_158" type="passenger" begin="0.00" from="596568243" to="596568237#1" end="3600.00" vehsPerHour="72.00"/>
+    <flow id="f_159" type="passenger" begin="0.00" from="596568243" to="-596568238#0" end="3600.00" vehsPerHour="24.00"/>
+    <flow id="f_160" type="truck" begin="0.00" from="596568243" to="23519483#0" end="3600.00" vehsPerHour="12.00"/>
+    
+	<flow id="f_161" type="motorcycle" begin="0.00" from="596568238#0" to="23521917#3" end="3600.00" vehsPerHour="168.00"/>
+    <flow id="f_162" type="motorcycle" begin="0.00" from="596568238#0" to="596568239#1" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_163" type="tricycle" begin="0.00" from="596568238#0" to="23521917#3" end="3600.00" vehsPerHour="384.00"/>
+    <flow id="f_164" type="tricycle" begin="0.00" from="596568238#0" to="596568239#1" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_165" type="jeepney" begin="0.00" from="596568238#0" to="23521917#3" end="3600.00" vehsPerHour="144.00"/>
+    <flow id="f_166" type="passenger" begin="0.00" from="596568238#0" to="23521917#3" end="3600.00" vehsPerHour="132.00"/>
+	<flow id="f_207" type="passenger" begin="0.00" from="596568238#0" to="596568239#1" end="3600.00" vehsPerHour="24.00"/>
+
+	<!-- Intersection 2 straight, left and right	-->
+	<flow id="f_167" type="motorcycle" begin="0.00" from="936923544#3" to="596568243" end="3600.00" vehsPerHour="696.00"/>
+    <flow id="f_168" type="motorcycle" begin="0.00" from="936923544#3" to="724187421" end="3600.00" vehsPerHour="192.00"/>
+    <flow id="f_169" type="tricycle" begin="0.00" from="936923544#3" to="596568243" end="3600.00" vehsPerHour="984.00"/>
+    <flow id="f_170" type="tricycle" begin="0.00" from="936923544#3" to="724187421" end="3600.00" vehsPerHour="108.00"/>
+    <flow id="f_171" type="jeepney" begin="0.00" from="936923544#3" to="596568243" end="3600.00" vehsPerHour="132.00"/>
+    <flow id="f_172" type="jeepney" begin="0.00" from="936923544#3" to="724187421" end="3600.00" vehsPerHour="24.00"/>
+    <flow id="f_173" type="passenger" begin="0.00" from="936923544#3" to="596568243" end="3600.00" vehsPerHour="564.00"/>
+    <flow id="f_174" type="passenger" begin="0.00" from="936923544#3" to="724187421" end="3600.00" vehsPerHour="72.00"/>
+    <flow id="f_208" type="truck" begin="0.00" from="936923544#3" to="596568243" end="3600.00" vehsPerHour="12.00"/>
+    
+	<flow id="f_175" type="motorcycle" begin="0.00" from="23520170" to="724187421" end="3600.00" vehsPerHour="156.00"/>
+    <flow id="f_176" type="motorcycle" begin="0.00" from="23520170" to="596568243" end="3600.00" vehsPerHour="144.00"/>
+    <flow id="f_177" type="tricycle" begin="0.00" from="23520170" to="724187421" end="3600.00" vehsPerHour="72.00"/>
+    <flow id="f_178" type="tricycle" begin="0.00" from="23520170" to="596568243" end="3600.00" vehsPerHour="300.00"/>
+    <flow id="f_179" type="jeepney" begin="0.00" from="23520170" to="724187421" end="3600.00" vehsPerHour="48.00"/>
+    <flow id="f_209" type="jeepney" begin="0.00" from="23520170" to="596568243" end="3600.00" vehsPerHour="24.00"/>
+    <flow id="f_180" type="passenger" begin="0.00" from="23520170" to="724187421" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_181" type="passenger" begin="0.00" from="23520170" to="596568243" end="3600.00" vehsPerHour="72.00"/>
+    
+	<!-- Intersection 1 straight, left and right	-->
+	<flow id="f_182" type="motorcycle" begin="0.00" from="724187422#0" to="936923544#2" end="3600.00" vehsPerHour="264.00"/>
+    <flow id="f_183" type="motorcycle" begin="0.00" from="724187422#0" to="282035194" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_184" type="tricycle" begin="0.00" from="724187422#0" to="936923544#2" end="3600.00" vehsPerHour="108.00"/>
+    <flow id="f_185" type="passenger" begin="0.00" from="724187422#0" to="936923544#2" end="3600.00" vehsPerHour="240.00"/>
+   
+	<flow id="f_187" type="motorcycle" begin="0.00" from="-282035194" to="724187422#1" end="3600.00" vehsPerHour="288.00"/>
+    <flow id="f_188" type="motorcycle" begin="0.00" from="-282035194" to="23520886#4" end="3600.00" vehsPerHour="48.00"/>
+    <flow id="f_189" type="tricycle" begin="0.00" from="-282035194" to="724187422#1" end="3600.00" vehsPerHour="132.00"/>
+    <flow id="f_191" type="jeepney" begin="0.00" from="-282035194" to="724187422#1" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_192" type="passenger" begin="0.00" from="-282035194" to="724187422#1" end="3600.00" vehsPerHour="180.00"/>
+    <flow id="f_193" type="passenger" begin="0.00" from="-282035194" to="23520886#4" end="3600.00" vehsPerHour="36.00"/>
+    <flow id="f_194" type="truck" begin="0.00" from="-282035194" to="724187422#1" end="3600.00" vehsPerHour="12.00"/>
+    
+	<flow id="f_195" type="motorcycle" begin="0.00" from="-724187422#1" to="23520886#5" end="3600.00" vehsPerHour="264.00"/>
+    <flow id="f_196" type="motorcycle" begin="0.00" from="-724187422#1" to="23521823#3" end="3600.00" vehsPerHour="24.00"/>
+    <flow id="f_197" type="tricycle" begin="0.00" from="-724187422#1" to="23520886#5" end="3600.00" vehsPerHour="180.00"/>
+    <flow id="f_198" type="tricycle" begin="0.00" from="-724187422#1" to="23521823#3" end="3600.00" vehsPerHour="24.00"/>
+    <flow id="f_199" type="passenger" begin="0.00" from="-724187422#1" to="23520886#5" end="3600.00" vehsPerHour="216.00"/>
+    <flow id="f_200" type="passenger" begin="0.00" from="-724187422#1" to="23521823#3" end="3600.00" vehsPerHour="24.00"/>
+    
+</routes>
